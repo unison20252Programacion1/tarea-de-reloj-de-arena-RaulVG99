@@ -9,4 +9,4 @@ def reloj_arena(m: int, s: str) -> str:
     for i in range(m,0,-1):
         print(" "*(m-i)+s*(2*i-1))
     for i in range(2,m+1):
-        print(" "*(m-i)+s*(2*i-1)+" "*(m-i))
+        print(" "*(m-i)+s*(2*i-1))
